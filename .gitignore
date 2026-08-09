@@ -1,0 +1,8 @@
+/vendor
+/node_modules
+.env
+autodoc_report.html
+composer.lock
+package-lock.json
+/public/css/output.css
+/public/logs

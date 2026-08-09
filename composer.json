@@ -1,0 +1,27 @@
+{
+    "name": "umar-ali/nova",
+    "description": "Ai chat bot nova",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Umar Ali",
+            "email": "umar.pwu786@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Asset\\": "public/",
+            "Route\\": "routes/",
+            "Pages\\": "pages/"
+        },
+        "files": [
+            "./app/Core/Global/Function.php"
+        ]
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "buildql/query-builder": "^1.0"
+    }
+}
