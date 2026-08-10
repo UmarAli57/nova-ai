@@ -6,3 +6,4 @@ composer.lock
 package-lock.json
 /public/css/output.css
 /public/logs
+/public/uploads
